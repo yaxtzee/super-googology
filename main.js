@@ -1,4 +1,4 @@
-let currentPage = localStorage.getItem("super-googology-page") ?? 0;
+let currentPage = localStorage.getItem("super-googology-page") ?? "Page 1";
 
 function updatePage(to, scroll = true) {
 	if (!pages[to]) return;
